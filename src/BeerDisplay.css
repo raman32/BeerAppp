@@ -1,0 +1,37 @@
+.beer-box {
+  vertical-align: middle;
+  height:300px;
+  width: 300px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  border: 2px;
+  background: whitesmoke;
+  margin: 20px 20px 20px 20px;
+}
+.beer-box:hover{
+  box-shadow: 5px 5px 5px 5px rgba(15,15,15,0.5);
+}
+.image-beer {
+  height:100px;
+  width: auto;
+  padding: 5px 5px 5px 5px;
+}
+.favorite-icon {
+  text-align: right;
+  padding: 10px 15px;
+}
+.description{
+  padding: 5px 5px 5px 5px;
+}
+.name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  padding: none;
+}
+.tagline{
+  margin:0 0 0 0 ;
+  padding:0 0 0 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}

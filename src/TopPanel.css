@@ -1,0 +1,84 @@
+.top-panel {
+  background: orange;
+}
+
+.links {
+  text-align-last: right;
+  columns: 2;
+  padding: 10px 10px;
+}
+.links div {
+  cursor: pointer;
+}
+
+.link-clicked-navigation {
+  color: blue;
+}
+.link-property {
+  padding: 5px 5px;
+}
+
+.title-text {
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  font-synthesis: weight;
+  margin-top: 50px;
+  margin-bottom: none;
+}
+.title-description {
+  text-align: center;
+  color: white;
+  font-size: 125%;
+  font-synthesis: weight;
+  margin-top: none;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.search-navbar {
+  border-style: solid;
+  border-width: 1px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 25%;
+}
+.title-with-searchbar {
+  text-align: center;
+}
+.clear-cursor {
+  cursor: pointer;
+}
+.advance-search {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-style: italic;
+}
+.form-format {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 15px;
+}
+.label-format {
+  padding: 0;
+  width: 120px;
+}
+/* .submit-format{
+  margin-left: 20px;
+
+} */
+.input-format {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+}

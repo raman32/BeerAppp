@@ -1,0 +1,84 @@
+.outer-window {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.inner-window {
+  position: fixed;
+  top: 12%;
+  left: 10%;
+  right: 10%;
+  bottom: 0%;
+  background: rgb(231, 231, 231);
+  box-shadow: 0 2px 8px rgba(236, 191, 191, 0.75);
+
+  overflow: scroll;
+}
+
+.close-x {
+  text-align: right;
+  padding: 5px 5px 5px 5px;
+ 
+}
+.close-x span {
+
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+.close-x :hover{
+color:red;
+}
+.beer-description {
+  margin: 10px 10px 10px 10px;
+  box-shadow: 5px black;
+  background: blueviolet;
+}
+
+.pop-col1 {
+  box-shadow: 5px black;
+  background: yellow;
+  width: fit-content;
+}
+
+#line {
+  margin: 10px 0px 10px 0px;
+  width: 30%;
+  color: blueviolet;
+  height: 8px;
+  background: blueviolet;
+  border: none;
+}
+
+#also-like-text {
+  color: #ee991c;
+  font-size: 30px;
+  padding-left: 5%;
+}
+
+.image-popup {
+  max-height: 500px;
+  min-width: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.also-like-col {
+  column-count: 3;
+}
+.title-text-pop {
+  text-align: left;
+  color: coral;
+  font-size: 200%;
+  font-synthesis: weight;
+}
+.title-description-pop {
+  text-align: left;
+  color: coral;
+  font-size: 100%;
+  font-synthesis: weight;
+}
