@@ -1,3 +1,5 @@
+This was a project to learn react. You are open to view the code but the :warning: **backend server is not working**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
